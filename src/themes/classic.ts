@@ -62,7 +62,6 @@ const Classic = async (option: ClassicOption): Promise<Buffer> => {
     }
 
     if (option.progress < 10) {
-        option.progress = 10;
     } else if (option.progress > 100) {
         option.progress = 100;
     }
