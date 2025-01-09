@@ -1,4 +1,4 @@
-const { Classic } = require('musicard');
+const { Classic } = require('musicardmodded');
 const fs = require('fs');
 
 Classic({

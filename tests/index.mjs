@@ -1,4 +1,4 @@
-import { Classic } from 'musicard';
+import { Classic } from 'musicardmodded';
 import fs from 'fs';
 
 Classic({
