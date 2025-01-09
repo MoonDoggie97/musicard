@@ -1,6 +1,6 @@
 {
-    "name": "musicard",
-    "version": "2.0.5",
+    "name": "musicardmodded",
+    "version": "2.0.6",
     "description": "Musicard is one of the best canvas libraries to create a variety of music cards.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -50,7 +50,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/unburn/musicard.git"
+        "url": "git+https://github.com/unburn/musicard.git"
     },
     "bugs": {
         "url": "https://github.com/unburn/musicard/issues"
@@ -58,5 +58,9 @@
     "dependencies": {
         "@napi-rs/canvas": "^0.1.53",
         "cropify": "latest"
-    }
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "homepage": "https://github.com/unburn/musicard#readme"
 }
