@@ -10,7 +10,7 @@ Classic({
     nameColor: '#DC92FF',
     progressColor: '#DC92FF',
     progressBarColor: '#2B2B2B',
-    progress: 50,
+    progress: 0,
 }).then(x => {
     fs.writeFileSync('output.png', x);
 });

@@ -1,6 +1,6 @@
 {
     "name": "musicardmodded",
-    "version": "2.0.9",
+    "version": "2.1.12",
     "description": "Musicard is one of the best canvas libraries to create a variety of music cards.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -22,9 +22,7 @@
         "deploy": "npm publish",
         "deploy:beta": "npm publish --tag beta",
         "test:m": "cd tests && node index.mjs",
-        "test:c": "cd tests && node index.js",
-        "lint": "biome lint --write src/",
-        "format": "biome format --write src/"
+        "test:c": "cd tests && node index.js"
     },
     "keywords": [
         "musicard",
@@ -43,24 +41,23 @@
     "author": "flameface",
     "license": "GPL-3.0-only",
     "devDependencies": {
-        "@biomejs/biome": "^1.8.3",
-        "@types/node": "^22.0.1",
-        "tsup": "^8.2.3",
-        "typescript": "^5.5.4"
+        "@types/node": "^20.12.12",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MoonDoggie97/musicard.git"
+        "url": "git+https://github.com/unburn/musicard.git"
     },
     "bugs": {
-        "url": "https://github.com/MoonDoggie97/musicard/issues"
+        "url": "https://github.com/unburn/musicard/issues"
     },
     "dependencies": {
-        "@napi-rs/canvas": "^0.1.53",
+        "@napi-rs/canvas": "^0.1.52",
         "cropify": "latest"
     },
     "directories": {
         "test": "tests"
     },
-    "homepage": "https://github.com/MoonDoggie97/musicard#readme"
+    "homepage": "https://github.com/unburn/musicard#readme"
 }
